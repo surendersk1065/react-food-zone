@@ -17,7 +17,7 @@ function Food({item}) {
                 <Link to={`/food/${val.id}`} className='text-decoration-none fs-3'>
                 <img src={ val.image } className='image-fluid rounded-circle'
                   style={{width : "150px",height : "150px"}}
-                />
+                alt=''/>
                   <p
                   style={{ color : "#EEE4B1"}}
                   className='mt-3'
