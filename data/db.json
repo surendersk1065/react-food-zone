@@ -1,0 +1,196 @@
+{
+    "item" :[
+        {
+            "id":1,
+            "type":"lunch",
+            "name":"biriyani",
+            "price":250,
+            "image":"/media/briyani.jpeg",
+            "desc":"is a mixed rice dish most popular in South Asia. It is made with rice, some type of meat (chicken, beef, goat, lamb, prawn, or fish) and spices. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":2,
+            "type":"dinner",
+            "name":"Paneer butter Masala",
+            "price":190,
+            "image":"/media/butter.jpeg",
+            "desc":"Paneer Butter Masala, also known as butter paneer is a rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.  ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":3,
+            "type":"dessert",
+            "name":"Cake",
+            "price":50,
+            "image":"/media/cake.jpeg",
+            "desc":"A cake is a sweet food made by baking a mixture of flour, eggs, sugar, and fat in an oven. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":4,
+            "type":"breakfast",
+            "name":"chappathi",
+            "price":50,
+            "image":"/media/chappathi.jpeg",
+            "desc":"The roti is a traditional flatbread from the Indian subcontinent. It is normally eaten with cooked vegetables or curries ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":5,
+            "type":"lunch",
+            "name":"Curd Rice",
+            "price":80,
+            "image":"/media/curdrice.jpeg",
+            "desc":"Curd rice is often eaten accompanied by South Asian pickles. In South Indian cuisine, curd rice is traditionally eaten at the end of lunch and dinner, ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":6,
+            "type":"breakfast",
+            "name":"Dosa",
+            "price":110,
+            "image":"/media/dosa.jpeg",
+            "desc":"A dosa is a thin, savoury crepe in South Indian cuisine made from a fermented batter of ground white gram and rice. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":7,
+            "type":"lunch",
+            "name":"Fried Rice",
+            "price":120,
+            "image":"/media/fried rice.jpeg",
+            "desc":"Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":8,
+            "type":"dinner",
+            "name":"Grill",
+            "price":300,
+            "image":"/media/grill.jpeg",
+            "desc":"Grilled chicken tends to have a smoky and charred taste due to the direct heat and open flames. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":9,
+            "type":"dessert",
+            "name":"Ice Cream",
+            "price":100,
+            "image":"/media/ice.jpeg",
+            "desc":"Ice cream is a frozen dessert typically made from milk or cream that has been flavoured with a sweetener, either sugar or an alternative ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":10,
+            "type":"breakfast",
+            "name":"idly",
+            "price":40,
+            "image":"/media/idly.jpg",
+            "desc":"is a type of savoury rice cake, originating from South India, popular as a breakfast food in Southern India ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":11,
+            "type":"lunch",
+            "name":"Lemon Rice",
+            "price":70,
+            "image":"/media/lemonrice.jpeg",
+            "desc":"Made with. fragrant basmati rice, fresh lemon juice, and a blend of. Indian spices, this dish is sure to tantalize your taste. buds. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":12,
+            "type":"lunch",
+            "name":"Meals",
+            "price":130,
+            "image":"/media/meals.jpeg",
+            "desc":"A traditional Indian banana leaf meal, also known as a thaali or sadya, is a complete meal that is typically served on a banana leaf. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":13,
+            "type":"dessert",
+            "name":"Mojito",
+            "price":90,
+            "image":"/media/mojito.jpeg",
+            "desc":"lime wedges are muddled with honey syrup and mint. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":14,
+            "type":"dessert",
+            "name":"Fresh Juice",
+            "price":40,
+            "image":"/media/orange.jpeg",
+            "desc":"Orange juice is a sweet and tart beverage made from the juice of the orange. Oranges are round and have a pulpy and extremely juicy flesh. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":15,
+            "type":"dinner",
+            "name":"Parotta",
+            "price":40,
+            "image":"/media/parotta.jpeg",
+            "desc":"Parotta or Porotta is a layered Indian and Sri Lankan flatbread made from Maida or Atta, alternatively known as flaky ribbon pancake. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":16,
+            "type":"breakfast",
+            "name":"Pongal",
+            "price":100,
+            "image":"/media/pongal.webp",
+            "desc":"Pongal is basically a porridge that is made with rice and moong dal. It can be made in both ways - as a sweet dish or as savoury. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":17,
+            "type":"breakfast",
+            "name":"poori",
+            "price":60,
+            "image":"/media/poori.jpg",
+            "desc":"Puri, also poori, is a type of deep-fried bread, made from unleavened whole-wheat flour, originated from the Indian subcontinent. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":18,
+            "type":"dinner",
+            "name":"shawarma",
+            "price":120,
+            "image":"/media/shawarma.jpeg",
+            "desc":"shawarma, popular street food in the Middle East, which originated in Turkey and is made of spit-roasted layers of lamb, beef, or other meat that are sliced and often wrapped in or served with pita. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        },
+        {
+            "id":19,
+            "type":"dessert",
+            "name":"sweets",
+            "price":100,
+            "image":"/media/sweet.jpeg",
+            "desc":"They include sugar, and a vast array of ingredients such as different flours, milk, milk solids, fermented foods, root vegetables, raw and roasted seeds, seasonal fruits, fruit pastes and dry fruits. ",
+            "location":"Chennai",
+            "hotel":"ABC Hotel"
+        }
+        
+        
+    ]
+}
