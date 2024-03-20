@@ -50,11 +50,9 @@ function App() {
   return (
     <div className="App">
       <Header 
-        search = {search}
-        setSearch = {setSearch}
       />
       <Image />
-      <Catagories />
+      <Catagories search={search} setSearch={setSearch}/>
       <Routes>
       <Route path="food">
         <Route index element = {<Food item={filterres} />}/>
