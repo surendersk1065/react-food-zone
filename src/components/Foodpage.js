@@ -1,5 +1,5 @@
 import React from 'react'
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import { useState } from 'react'
 
 function Foodpage({item}) {
@@ -55,7 +55,7 @@ function Foodpage({item}) {
                 <p>{fooditem.location}</p>
                 <button onClick={() => decrement(fooditem.price)} className='btn btn-primary me-2 mb-1'>-</button><span>{count}</span> <button onClick={() => increment(fooditem.price)} className='btn btn-primary ms-2 mb-1'>+</button>
                 <p>Bill to Pay : {price}.Rs</p>
-                <button className='btn btn-primary'>Place Order</button>
+                <button className='btn btn-primary'><Link to = "bill">Place Order</Link></button>
             </div>
         }
         {
