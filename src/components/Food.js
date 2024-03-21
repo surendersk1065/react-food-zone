@@ -15,7 +15,7 @@ function Food({ item }) {
                     style={{ backgroundColor: "#430A5D", width: "300px" }}
                   >
 
-                    <Link to={`/food/${val.id}`} className='text-decoration-none fs-3'>
+                    <Link to={`/${val.id}`} className='text-decoration-none fs-3'>
                       <img src={val.image} className='image-fluid rounded-circle'
                         style={{ width: "150px", height: "150px" }}
                         alt='' />
@@ -31,7 +31,8 @@ function Food({ item }) {
             </div>
           )
           :
-          <p className='text-center fs-3 my-4'>No matching item</p>
+          <p className='text-center fs-3 my-4'>Loading...<br></br>or No matching item</p>
+          
         }
 
     </main>

@@ -35,8 +35,12 @@ function App() {
         }
       }
     }
+    
     fetchitems()
+    
+    
   },[])
+  
 
   const [filterres, setFilterres] = useState([])
   const [search, setSearch] = useState('')
@@ -45,6 +49,9 @@ function App() {
     const filterresult = item.filter((val) => ((val.name).toLowerCase()).includes(search.toLowerCase()))
     setFilterres(filterresult)
   },[item, search])
+
+
+  
   
 
   return (
@@ -52,16 +59,16 @@ function App() {
       <Header 
       />
       <Image />
-      <Catagories search={search} setSearch={setSearch}/>
+      <Catagories search={search} setSearch={setSearch} />
       <Routes>
-      <Route path="food">
+      <Route path="/">
         <Route index element = {<Food item={filterres} />}/>
         <Route path=":id" element = {<Foodpage item={item} />} />
       </Route>
       <Route path="breakfast"> 
         <Route index element = {<Breakfast 
           item = {
-            filterres.filter((val) => val.type === "breakfast")
+             filterres.filter((val) => val.type === "breakfast") 
           }
         /> } />
         <Route path=":id" element = {<Foodpage item={item} />} />
